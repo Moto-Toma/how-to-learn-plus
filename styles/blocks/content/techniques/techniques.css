@@ -1,0 +1,47 @@
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.techniques_cards {
+  display: flex;
+  width: 920px;
+  flex-wrap: wrap;
+  flex-direction: row;  
+}
+  
+.techniques_cards_item {
+  display: block;
+  margin-right: 100px;
+  text-align: center;
+  width: 240px;
+}
+  
+.techniques_cards_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+  
+.techniques_cards_image {
+  width: 160px;
+  height: 160px;
+  padding: 60px 40px 43px 40px;
+  border-radius: 50%;
+}
+  
+.techniques_cards_title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+  
+.techniques_cards_description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 16px 0 0 0;
+}
+  
