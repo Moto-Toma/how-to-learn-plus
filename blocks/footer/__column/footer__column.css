@@ -2,18 +2,5 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
-  }
-  
-  .footer__column_content_copyright {
-    flex-basis: 711px;
-  }
-  
-  .footer__column_content_info {
-    justify-content: unset;
-  }
-  
-  .footer__column_content_social {
-    justify-content: unset;
   }
   
